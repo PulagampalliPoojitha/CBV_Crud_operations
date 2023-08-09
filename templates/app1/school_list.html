@@ -10,7 +10,7 @@
         <h1>list of School Objects</h1>
 
         {% for school in allSO %}
-            <h1><a href="{{school.Scname}}"></a>{{school.Scname}}</h1>
+            <a href="{{school.pk}}"><h1>{{school.Scname}}</h1></a>
         {% endfor %}
     </center>
 </body>
